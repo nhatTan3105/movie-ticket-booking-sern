@@ -6,4 +6,5 @@ let configViewEngine = (app) => {
     app.set("views", "./src/views");
 };
 
-export default function (app) { configViewEngine(app) };
+//export default function (app) { configViewEngine(app) };
+export default configViewEngine
